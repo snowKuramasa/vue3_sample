@@ -150,12 +150,12 @@ export default {
         },
         {
           name:"Java",
-          type:"backtend",
+          type:"backend",
           enable:true
         },
         {
           name:"C#",
-          type:"backtend",
+          type:"backend",
           enable:true
         }
       ]
@@ -165,7 +165,7 @@ export default {
       alert(`${programLanguages[0].name} is ${programLanguages[0].enable}`)
     })
 
-    //オブジェクトをリアクティブにする場合
+    /*オブジェクトをリアクティブにする場合*/
     //オブジェクトの中の値はリアクティブ
     const animals = reactive(
       {
@@ -178,9 +178,7 @@ export default {
         }
       }
     );
-    const otherList = reactive(
-      []
-    );
+    const otherList = [];
     // const shark = toRef(animals, 'shark');
     // const fox = toRef(animals, 'fox');
     // const needleMouse = toRef(animals, 'needleMouse');
