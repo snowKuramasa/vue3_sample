@@ -1,18 +1,20 @@
-<template>
+<!-- <template>
   <div class="home">
+    <Header :taskCount="state.listLength"/>
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
+// import Top from '@/views/Top.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Header
   }
 }
-</script>
+</script> -->
